@@ -8,9 +8,9 @@ import DistributionPlatforms from 'components/podcast/platforms'
 import Hero from 'components/big-hero'
 import HeaderImage from '../../images/chats-with-kent.svg'
 import theme from '../../../config/theme'
-import {bpMaxSM, bpMaxMD} from 'lib/breakpoints'
+import {bpMaxXS, bpMaxSM, bpMaxMD} from 'lib/breakpoints'
 
-function SeasonIndex({data: {s1, s2}}) {
+function SeasonIndex({data: {s1, s2, s3}}) {
   return (
     <Layout
       hero={
@@ -34,6 +34,9 @@ function SeasonIndex({data: {s1, s2}}) {
               [bpMaxSM]: {
                 paddingBottom: '1rem',
               },
+              [bpMaxXS]: {
+                flexWrap: 'wrap',
+              },
             }}
           >
             <DistributionPlatforms />
@@ -50,7 +53,8 @@ function SeasonIndex({data: {s1, s2}}) {
           zIndex: 5,
         }}
       >
-        <PodcastSeason data={s2} />
+        <PodcastSeason data={s3} />
+        <PodcastSeason css={{marginTop: '1.5rem'}} data={s2} />
         <PodcastSeason css={{marginTop: '1.5rem'}} data={s1} />
       </Container>
     </Layout>
@@ -78,8 +82,8 @@ export const seasonIndexQuery = graphql`
           number
           guestPhoto {
             childImageSharp {
-              fluid(maxWidth: 80) {
-                ...GatsbyImageSharpFluid_withWebp
+              fixed(width: 48) {
+                ...GatsbyImageSharpFixed_withWebp_tracedSVG
               }
             }
           }
@@ -103,8 +107,33 @@ export const seasonIndexQuery = graphql`
           number
           guestPhoto {
             childImageSharp {
-              fluid(maxWidth: 80) {
-                ...GatsbyImageSharpFluid_withWebp
+              fixed(width: 48) {
+                ...GatsbyImageSharpFixed_withWebp_tracedSVG
+              }
+            }
+          }
+        }
+      }
+    }
+    s3: allMdx(
+      filter: {frontmatter: {season: {eq: 3}}, fields: {isPodcast: {eq: true}}}
+      sort: {order: ASC, fields: frontmatter___number}
+    ) {
+      totalCount
+      nodes {
+        fields {
+          isPodcast
+          slug
+        }
+        frontmatter {
+          simpleCastId
+          title
+          season
+          number
+          guestPhoto {
+            childImageSharp {
+              fixed(width: 48) {
+                ...GatsbyImageSharpFixed_withWebp_tracedSVG
               }
             }
           }

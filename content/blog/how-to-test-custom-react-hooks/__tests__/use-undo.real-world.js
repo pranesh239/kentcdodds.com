@@ -1,5 +1,7 @@
+import {render, screen} from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import React from 'react'
-import {render, screen, fireEvent} from '@testing-library/react'
+
 import {UseUndoExample} from '../use-undo.example'
 
 test('allows you to undo and redo', () => {
@@ -21,10 +23,10 @@ test('allows you to undo and redo', () => {
 
   // add second value
   input.value = 'two'
-  fireEvent.click(submit)
+  userEvent.click(submit)
 
   // assert new state
-  expect(undo).not.toBeDisabled()
+  expect(undo).toBeEnabled()
   expect(redo).toBeDisabled()
   expect(past).toHaveTextContent(`Past: one`)
   expect(present).toHaveTextContent(`Present: two`)
@@ -32,51 +34,51 @@ test('allows you to undo and redo', () => {
 
   // add third value
   input.value = 'three'
-  fireEvent.click(submit)
+  userEvent.click(submit)
 
   // assert new state
-  expect(undo).not.toBeDisabled()
+  expect(undo).toBeEnabled()
   expect(redo).toBeDisabled()
   expect(past).toHaveTextContent(`Past: one, two`)
   expect(present).toHaveTextContent(`Present: three`)
   expect(future).toHaveTextContent(`Future:`)
 
   // undo
-  fireEvent.click(undo)
+  userEvent.click(undo)
 
   // assert "undone" state
-  expect(undo).not.toBeDisabled()
-  expect(redo).not.toBeDisabled()
+  expect(undo).toBeEnabled()
+  expect(redo).toBeEnabled()
   expect(past).toHaveTextContent(`Past: one`)
   expect(present).toHaveTextContent(`Present: two`)
   expect(future).toHaveTextContent(`Future: three`)
 
   // undo again
-  fireEvent.click(undo)
+  userEvent.click(undo)
 
   // assert "double-undone" state
   expect(undo).toBeDisabled()
-  expect(redo).not.toBeDisabled()
+  expect(redo).toBeEnabled()
   expect(past).toHaveTextContent(`Past:`)
   expect(present).toHaveTextContent(`Present: one`)
   expect(future).toHaveTextContent(`Future: two, three`)
 
   // redo
-  fireEvent.click(redo)
+  userEvent.click(redo)
 
   // assert undo + undo + redo state
-  expect(undo).not.toBeDisabled()
-  expect(redo).not.toBeDisabled()
+  expect(undo).toBeEnabled()
+  expect(redo).toBeEnabled()
   expect(past).toHaveTextContent(`Past: one`)
   expect(present).toHaveTextContent(`Present: two`)
   expect(future).toHaveTextContent(`Future: three`)
 
   // add fourth value
   input.value = 'four'
-  fireEvent.click(submit)
+  userEvent.click(submit)
 
   // assert final state (note the lack of "third")
-  expect(undo).not.toBeDisabled()
+  expect(undo).toBeEnabled()
   expect(redo).toBeDisabled()
   expect(past).toHaveTextContent(`Past: one, two`)
   expect(present).toHaveTextContent(`Present: four`)

@@ -25,7 +25,7 @@ export default [
     deliveries: [
       {
         event: '[DotJS 2021](https://www.dotjs.io/)',
-        date: '2021-02-18',
+        date: '2021-04-18',
       },
     ],
     description: `
@@ -40,46 +40,20 @@ export default [
     deliveries: [
       {
         event: '[JS Day Canaries](https://jsdaycanarias.com/)',
-        date: '2020-11-13',
+        date: '2021-11-13',
       },
     ],
     description: `
     `,
   },
   {
-    title: 'Keynote: TBA',
-    resources: [],
-    tags: [],
-    deliveries: [
-      {
-        event: '[React Loop](https://reactloop.com/)',
-        date: '2020-06-19',
-      },
-    ],
-    description: `
-    `,
-  },
-  {
-    title: 'Keynote: TBA',
-    resources: [],
-    tags: [],
-    deliveries: [
-      {
-        event: '[React Finland](https://react-finland.fi/)',
-        date: '2020-05-28',
-      },
-    ],
-    description: `
-    `,
-  },
-  {
-    title: 'Keynote: Consume ➡️ Build ➡️ Teach',
+    title: 'Consume ➡️ Build ➡️ Teach',
     resources: [],
     tags: [],
     deliveries: [
       {
         event: '[React Summit](https://reactsummit.com/)',
-        date: '2020-04-17',
+        date: '2020-10-15',
       },
     ],
     description: `
@@ -91,31 +65,6 @@ export default [
       tips and tricks that I've learned so you can be as productive as you can
       be at learning new things and solidifying that knowledge so it's there
       when you need it.
-    `,
-  },
-  {
-    title: 'Keynote: Managing React Application State Management',
-    resources: [],
-    tags: ['react'],
-    deliveries: [
-      {
-        event: '[Reactathon 2020](https://www.reactathon.com/)',
-        date: '2020-03-31',
-      },
-    ],
-    description: `
-      Application State Management is one of the hardest parts of building and
-      maintaining React Applications. The number of options you have is numerous
-      and the reason is that it's just such a hard problem with so many nuances
-      and trade-offs. One thing that makes application state management harder
-      is when we aren't thoughtful about how that state is organized and
-      categorized in our app. There are different kinds of state and they
-      require different approaches for management. When you try to treat all app
-      state exactly the same is when problems come into play.
-
-      Let's talk about what some of those categories are and how we can
-      drastically simplify our application code and improve our app's
-      performance by thinking about and organizing our state differently.
     `,
   },
   {
@@ -160,6 +109,12 @@ export default [
       {
         event: '[Connect.Tech](https://connect.tech)',
         date: '2019-10-16',
+      },
+      {
+        event: '[React Summit](https://remote.reactsummit.com/)',
+        date: '2020-04-17',
+        recording:
+          'https://www.youtube.com/watch?v=wuVy7rwkCfc&list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf',
       },
     ],
     description: `
@@ -437,6 +392,12 @@ export default [
         recording:
           'https://youtu.be/AiJ8tRRH0f8?list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf',
       },
+      {
+        event: '[Byteconf React 2020](https://www.bytesized.xyz/react-2020)',
+        date: '2020-04-01',
+        recording:
+          'https://www.youtube.com/watch?v=5io81WLgXtg&list=PLV5CVI1eNcJgNqzNwcs4UKrlJdhfDjshf',
+      },
     ],
     description: `
         One of the things I love about React is how easy it is to encapsulate UI code into a component. I love this
@@ -474,6 +435,10 @@ export default [
       {
         event: '[ByteConf](https://byteconf.com)',
         date: '2018-08-31',
+      },
+      {
+        event: 'YYC Dev',
+        date: '2020-09-15',
       },
     ],
     description: `

@@ -8,10 +8,13 @@ import {isEqual} from 'lodash'
 function useAuth() {
   // normally this is going to implement a similar pattern
   // learn more here: https://kcd.im/auth
-  return {user: {username: 'jakiechan', tagline: '', bio: ''}}
+  return {user: {username: 'jackiechan', tagline: '', bio: ''}}
 }
 
-const sleep = t => new Promise(resolve => setTimeout(resolve, t))
+const sleep = t =>
+  new Promise(resolve => {
+    setTimeout(resolve, t)
+  })
 
 const userClient = {
   async updateUser(user, updates) {

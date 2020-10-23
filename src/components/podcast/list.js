@@ -20,7 +20,7 @@ export default function PodcastList({data}) {
     >
       {data.nodes.map(episode => (
         <li
-          key={episode.frontmatter.id}
+          key={episode.frontmatter.simpleCastId}
           css={css({
             marginBottom: 10,
           })}
@@ -85,7 +85,9 @@ export default function PodcastList({data}) {
                   E{episode.frontmatter.number}
                 </small>
               </h4>
-              <small>{episode.frontmatter.description}</small>
+              {episode.frontmatter.description && (
+                <small>{episode.frontmatter.description}</small>
+              )}
             </div>
           </Link>
         </li>

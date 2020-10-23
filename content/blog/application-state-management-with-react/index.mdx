@@ -1,16 +1,20 @@
 ---
 slug: 'application-state-management-with-react'
 title: 'Application State Management with React'
-date: '2019-04-22'
+date: '2020-07-21'
 author: 'Kent C. Dodds'
 description: '_How React is all you need to manage your application state_'
 categories:
   - 'react'
 keywords:
   - 'react'
+  - 'state'
   - 'javascript'
   - 'redux'
   - 'mobx'
+  - 'recoil'
+  - 'react query'
+  - 'jotai'
 banner: './images/banner.jpg'
 bannerCredit: 'Photo by [Rene Böhmer](https://unsplash.com/photos/YeUVDKZWSZ4)'
 ---
@@ -174,8 +178,8 @@ app.
 "Sure Kent, ok, but what about the [prop drilling](/blog/prop-drilling)
 problem?"
 
-Great question, your first line of defense against this is to change the way
-your structuring your components. Take advantage of
+Great question. Your first line of defense against this is to change the way
+you're structuring your components. Take advantage of
 [component composition](https://reactjs.org/docs/context.html#before-you-use-context).
 Maybe instead of:
 
@@ -288,7 +292,7 @@ function CountPage() {
 > context too soon!
 
 And what's cool about this approach is that we could put all the logic for
-common ways to update the state in our `useContext` hook:
+common ways to update the state in our `useCount` hook:
 
 ```jsx
 function useCount() {
@@ -443,6 +447,45 @@ state. I know I know, I told you that you don't need a state management library,
 but I don't really consider react-query to be a state management library. I
 consider it to be a cache. And it's a darn good one. Give it a look! That
 [Tanner Linsley](https://twitter.com/tannerlinsley) is one smart cookie.
+
+## What about performance?
+
+When you follow the advice above, performance will rarely be an issue.
+Particularly when you're following
+[the recommendations around colocation](/blog/state-colocation-will-make-your-react-app-faster).
+However, there are definitely use cases where performance can be problematic.
+When you have state-related performance problems, the first thing to check is
+how many components are being re-rendered due to a state change and determine
+whether those components really need to be re-rendered due to that state change.
+If they do, then the perf issue isn't in your mechanism for managing state, but
+in the speed of your render in which case you need to
+[speed up your renders](/blog/fix-the-slow-render-before-you-fix-the-re-render).
+
+However, if you notice that there are a lot of components that are rendering
+with no DOM updates or needed side-effects, then those components are rendering
+unnecessarily. This happens all the time with React and it's normally not a
+problem by itself (and you should
+[focus on making even unnecessary re-renders fast first](/blog/fix-the-slow-render-before-you-fix-the-re-render)),
+but if it really is the bottleneck, then here are a few approaches to solving
+performance issues with state in React context:
+
+1. Separate your state into different logical pieces rather than in one big
+   store, so a single update to any part of state does NOT trigger an update to
+   every component in your app.
+2. [Optimize your context provider](/blog/how-to-use-react-context-effectively)
+3. Bring in [jotai](https://github.com/react-spring/jotai)
+
+There it is again, another recommendation for a library. It's true, there are
+_some_ use cases for which React's built-in state management abstractions are
+not well suited. Of all the available abstractions, jotai is the most promising
+for those use cases. If you're curious what those use cases are, the types of
+problems jotai solves well are actually really well described in
+[Recoil: State Management for Today's React - Dave McCabe aka @mcc_abe at @ReactEurope 2020](https://www.youtube.com/watch?v=_ISAA_Jt9kI).
+Recoil and jotai are very similar (and solve the same types of problems). But
+based on my (limited) experience with them, I prefer jotai.
+
+In any case, _most_ apps won't need an atomic state management tool like recoil
+or jotai.
 
 ## Conclusion
 

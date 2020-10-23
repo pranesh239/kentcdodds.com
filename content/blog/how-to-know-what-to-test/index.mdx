@@ -120,7 +120,7 @@ Now, we can look at the remaining lines and determine that there are two more
 use cases that our tests don't support yet:
 
 - it returns an empty array if given a falsy value
-- it returns an array with the given argument if it's not an array or falsy
+- it returns an array with the given argument if it's not an array and not falsy
 
 Let's add tests for those use cases and see how it effects the code coverage.
 
@@ -145,7 +145,7 @@ function arrayify(maybeArray) {
 Nice, almost there!
 
 ```javascript
-test(`returns an array with the given argument if it's not an array or falsy`, () => {
+test(`returns an array with the given argument if it's not an array and not falsy`, () => {
   expect(arrayify('Leopard')).toEqual(['Leopard'])
 })
 ```
@@ -232,8 +232,8 @@ callback prop, or perform any other number of _observable_ side effects which
 would be useful to test:
 
 - User interactions (using
-  [`fireEvent`](https://testing-library.com/docs/dom-testing-library/api-events)
-  from React Testing Library): Is the end user able to interact with the
+  [`userEvent`](https://testing-library.com/docs/ecosystem-user-event)
+  from `@testing-library/user-event`): Is the end user able to interact with the
   elements that the component renders?
 - Changing props (using
   [`rerender`](https://testing-library.com/docs/react-testing-library/api#rerender)

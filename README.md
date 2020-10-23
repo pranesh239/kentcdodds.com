@@ -26,7 +26,7 @@ Thanks goes to these wonderful people
     <td align="center"><a href="http://www.kengreeff.com"><img src="https://avatars0.githubusercontent.com/u/2705717?v=4" width="100px;" alt=""/><br /><sub><b>Ken Greeff</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=kengreeff" title="Code">💻</a></td>
     <td align="center"><a href="https://andrewjtorr.es"><img src="https://avatars1.githubusercontent.com/u/450495?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Torres</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=ajtorres9" title="Code">💻</a></td>
     <td align="center"><a href="https://gokul.site"><img src="https://avatars1.githubusercontent.com/u/2944237?v=4" width="100px;" alt=""/><br /><sub><b>Gokulakrishnan Kalaikovan</b></sub></a><br /><a href="#content-gokulkrishh" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/lasota-piotr"><img src="https://avatars3.githubusercontent.com/u/9272629?v=4" width="100px;" alt=""/><br /><sub><b>Piotr lasota</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=lasota-piotr" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/lasota-piotr"><img src="https://avatars3.githubusercontent.com/u/9272629?v=4" width="100px;" alt=""/><br /><sub><b>Piotr lasota</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=lasota-piotr" title="Code">💻</a> <a href="#content-lasota-piotr" title="Content">🖋</a></td>
     <td align="center"><a href="https://www.chrismlusk.com"><img src="https://avatars2.githubusercontent.com/u/5922913?v=4" width="100px;" alt=""/><br /><sub><b>Chris Lusk</b></sub></a><br /><a href="#content-chrismlusk" title="Content">🖋</a></td>
   </tr>
   <tr>
@@ -115,7 +115,7 @@ Thanks goes to these wonderful people
     <td align="center"><a href="https://github.com/jessethomson"><img src="https://avatars1.githubusercontent.com/u/15367855?v=4" width="100px;" alt=""/><br /><sub><b>Jesse Thomson</b></sub></a><br /><a href="#content-jessethomson" title="Content">🖋</a></td>
     <td align="center"><a href="https://twitter.com/gregoralbrecht"><img src="https://avatars0.githubusercontent.com/u/6179211?v=4" width="100px;" alt=""/><br /><sub><b>Gregor Albrecht</b></sub></a><br /><a href="#content-gregoralbrecht" title="Content">🖋</a></td>
     <td align="center"><a href="https://twitter.com/NoriSte"><img src="https://avatars0.githubusercontent.com/u/173663?v=4" width="100px;" alt=""/><br /><sub><b>Stefano Magni</b></sub></a><br /><a href="#content-NoriSte" title="Content">🖋</a></td>
-    <td align="center"><a href="https://bouwe.io"><img src="https://avatars0.githubusercontent.com/u/4126793?v=4" width="100px;" alt=""/><br /><sub><b>Bouwe K. Westerdijk</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=bouwe77" title="Code">💻</a></td>
+    <td align="center"><a href="https://bouwe.io"><img src="https://avatars0.githubusercontent.com/u/4126793?v=4" width="100px;" alt=""/><br /><sub><b>Bouwe K. Westerdijk</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=bouwe77" title="Code">💻</a> <a href="#content-bouwe77" title="Content">🖋</a></td>
     <td align="center"><a href="https://github.com/lukasduspiva"><img src="https://avatars0.githubusercontent.com/u/9008594?v=4" width="100px;" alt=""/><br /><sub><b>Lukáš</b></sub></a><br /><a href="#content-lukasduspiva" title="Content">🖋</a></td>
     <td align="center"><a href="https://www.itsmycodeblog.com"><img src="https://avatars0.githubusercontent.com/u/1111211?v=4" width="100px;" alt=""/><br /><sub><b>Nicholas Murray</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=NicholasMurray" title="Code">💻</a></td>
   </tr>
@@ -185,6 +185,54 @@ Thanks goes to these wonderful people
   <tr>
     <td align="center"><a href="https://github.com/steric85"><img src="https://avatars0.githubusercontent.com/u/11133505?v=4" width="100px;" alt=""/><br /><sub><b>Steric</b></sub></a><br /><a href="#content-steric85" title="Content">🖋</a></td>
     <td align="center"><a href="https://juliangaramendy.dev"><img src="https://avatars1.githubusercontent.com/u/237818?v=4" width="100px;" alt=""/><br /><sub><b>Julian</b></sub></a><br /><a href="#content-JulianG" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/pranesh239"><img src="https://avatars3.githubusercontent.com/u/24464629?v=4" width="100px;" alt=""/><br /><sub><b>Pranesh</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=pranesh239" title="Code">💻</a></td>
+    <td align="center"><a href="http://www.abhishekjakhar.com/"><img src="https://avatars1.githubusercontent.com/u/19193724?v=4" width="100px;" alt=""/><br /><sub><b>Abhishek Jakhar</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=abhishekjakhar" title="Code">💻</a></td>
+    <td align="center"><a href="https://balazsorban.com"><img src="https://avatars1.githubusercontent.com/u/18369201?v=4" width="100px;" alt=""/><br /><sub><b>Balázs Orbán</b></sub></a><br /><a href="#content-balazsorban44" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/arequejo"><img src="https://avatars0.githubusercontent.com/u/16929242?v=4" width="100px;" alt=""/><br /><sub><b>Alejandro Requejo</b></sub></a><br /><a href="#content-arequejo" title="Content">🖋</a></td>
+    <td align="center"><a href="https://dawneraq.github.io"><img src="https://avatars0.githubusercontent.com/u/9038965?v=4" width="100px;" alt=""/><br /><sub><b>Andrew Aquino</b></sub></a><br /><a href="#content-dawneraq" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/todoroff"><img src="https://avatars1.githubusercontent.com/u/48935314?v=4" width="100px;" alt=""/><br /><sub><b>todoroff</b></sub></a><br /><a href="#content-todoroff" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/puzzledbytheweb"><img src="https://avatars2.githubusercontent.com/u/35262512?v=4" width="100px;" alt=""/><br /><sub><b>Pedro Filipe</b></sub></a><br /><a href="#content-puzzledbytheweb" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Creeland"><img src="https://avatars2.githubusercontent.com/u/518406?v=4" width="100px;" alt=""/><br /><sub><b>Creeland A. Provinsal </b></sub></a><br /><a href="#content-Creeland" title="Content">🖋</a></td>
+    <td align="center"><a href="https://hung.dev"><img src="https://avatars3.githubusercontent.com/u/8603085?v=4" width="100px;" alt=""/><br /><sub><b>Hung Viet Nguyen</b></sub></a><br /><a href="#content-nvh95" title="Content">🖋</a></td>
+    <td align="center"><a href="http://www.andrewhays.net"><img src="https://avatars3.githubusercontent.com/u/229118?v=4" width="100px;" alt=""/><br /><sub><b>Drew Hays</b></sub></a><br /><a href="#content-Dru89" title="Content">🖋</a></td>
+    <td align="center"><a href="http://twitter.com/kimroen"><img src="https://avatars1.githubusercontent.com/u/520420?v=4" width="100px;" alt=""/><br /><sub><b>Kim Røen</b></sub></a><br /><a href="#content-kimroen" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/JavierMartinz"><img src="https://avatars1.githubusercontent.com/u/1155507?v=4" width="100px;" alt=""/><br /><sub><b>Javier Martínez</b></sub></a><br /><a href="#content-JavierMartinz" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://jelte.tech"><img src="https://avatars1.githubusercontent.com/u/35220102?v=4" width="100px;" alt=""/><br /><sub><b>Jelte Homminga</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=jeltehomminga" title="Code">💻</a></td>
+    <td align="center"><a href="http://davidstockton.dev/"><img src="https://avatars2.githubusercontent.com/u/775393?v=4" width="100px;" alt=""/><br /><sub><b>David Stockton</b></sub></a><br /><a href="#content-dstockto" title="Content">🖋</a></td>
+    <td align="center"><a href="https://delacruz.dev"><img src="https://avatars2.githubusercontent.com/u/5173869?v=4" width="100px;" alt=""/><br /><sub><b>Dani de la Cruz</b></sub></a><br /><a href="#content-delacruz-dev" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.marcuslyons.com"><img src="https://avatars1.githubusercontent.com/u/10541922?v=4" width="100px;" alt=""/><br /><sub><b>Marcus Lyons</b></sub></a><br /><a href="#content-marcuslyons" title="Content">🖋</a></td>
+    <td align="center"><a href="https://ricardobusquet.com"><img src="https://avatars1.githubusercontent.com/u/7198302?v=4" width="100px;" alt=""/><br /><sub><b>Ricardo Busquet</b></sub></a><br /><a href="#content-rbusquet" title="Content">🖋</a></td>
+    <td align="center"><a href="http://immigration9.github.io"><img src="https://avatars0.githubusercontent.com/u/18402319?v=4" width="100px;" alt=""/><br /><sub><b>MinGu Anthony Lee</b></sub></a><br /><a href="#translation-immigration9" title="Translation">🌍</a></td>
+    <td align="center"><a href="http://ahmd.talat95@gmail.com"><img src="https://avatars1.githubusercontent.com/u/46477493?v=4" width="100px;" alt=""/><br /><sub><b>Ahmed Talaat</b></sub></a><br /><a href="#content-ahmdtalat" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://solverfox.dev"><img src="https://avatars3.githubusercontent.com/u/12292047?v=4" width="100px;" alt=""/><br /><sub><b>Sebastian Silbermann</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=eps1lon" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/aericson"><img src="https://avatars3.githubusercontent.com/u/692542?v=4" width="100px;" alt=""/><br /><sub><b>André Ericson</b></sub></a><br /><a href="#content-aericson" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/TimothyJones"><img src="https://avatars1.githubusercontent.com/u/914369?v=4" width="100px;" alt=""/><br /><sub><b>Timothy Jones</b></sub></a><br /><a href="#content-TimothyJones" title="Content">🖋</a></td>
+    <td align="center"><a href="http://oliverschmidt.dev"><img src="https://avatars3.githubusercontent.com/u/802203?v=4" width="100px;" alt=""/><br /><sub><b>Oliver Schmidt</b></sub></a><br /><a href="#content-codejet" title="Content">🖋</a></td>
+    <td align="center"><a href="http://bitrotincarnate.com"><img src="https://avatars1.githubusercontent.com/u/159100?v=4" width="100px;" alt=""/><br /><sub><b>Maciek Sakrejda</b></sub></a><br /><a href="#content-uhoh-itsmaciek" title="Content">🖋</a></td>
+    <td align="center"><a href="http://adamtuttle.codes"><img src="https://avatars2.githubusercontent.com/u/46990?v=4" width="100px;" alt=""/><br /><sub><b>Adam Tuttle</b></sub></a><br /><a href="#content-atuttle" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.leetaylor.dev"><img src="https://avatars2.githubusercontent.com/u/48020564?v=4" width="100px;" alt=""/><br /><sub><b>Lee Taylor</b></sub></a><br /><a href="#content-leettaylor" title="Content">🖋</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/brookslybrand"><img src="https://avatars3.githubusercontent.com/u/12396812?v=4" width="100px;" alt=""/><br /><sub><b>Brooks Lybrand</b></sub></a><br /><a href="#content-brookslybrand" title="Content">🖋</a></td>
+    <td align="center"><a href="http://willworth.dev/"><img src="https://avatars2.githubusercontent.com/u/4967253?v=4" width="100px;" alt=""/><br /><sub><b>Will Worth</b></sub></a><br /><a href="#content-willworth" title="Content">🖋</a></td>
+    <td align="center"><a href="https://glumac.me"><img src="https://avatars0.githubusercontent.com/u/31325167?v=4" width="100px;" alt=""/><br /><sub><b>Nemanja Glumac</b></sub></a><br /><a href="#content-nemanjaglumac" title="Content">🖋</a></td>
+    <td align="center"><a href="https://nicknisi.com"><img src="https://avatars1.githubusercontent.com/u/293805?v=4" width="100px;" alt=""/><br /><sub><b>Nick Nisi</b></sub></a><br /><a href="#content-nicknisi" title="Content">🖋</a></td>
+    <td align="center"><a href="http://t.me/ipovos"><img src="https://avatars0.githubusercontent.com/u/6066305?v=4" width="100px;" alt=""/><br /><sub><b>Victor Osipov</b></sub></a><br /><a href="#content-ipovos" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/vebradev"><img src="https://avatars2.githubusercontent.com/u/230534?v=4" width="100px;" alt=""/><br /><sub><b>Justinas Vebra</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/issues?q=author%3Avebradev" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://peter.hozak.info/"><img src="https://avatars0.githubusercontent.com/u/1087670?v=4" width="100px;" alt=""/><br /><sub><b>Peter Hozák</b></sub></a><br /><a href="#content-Aprillion" title="Content">🖋</a> <a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=Aprillion" title="Code">💻</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/onemen"><img src="https://avatars0.githubusercontent.com/u/3650909?v=4" width="100px;" alt=""/><br /><sub><b>onemen</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=onemen" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/marcosvega91"><img src="https://avatars2.githubusercontent.com/u/5365582?v=4" width="100px;" alt=""/><br /><sub><b>Marco Moretti</b></sub></a><br /><a href="https://github.com/kentcdodds/kentcdodds.com/commits?author=marcosvega91" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/decisa"><img src="https://avatars0.githubusercontent.com/u/35339760?v=4" width="100px;" alt=""/><br /><sub><b>Art Telesh</b></sub></a><br /><a href="#content-decisa" title="Content">🖋</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/hucki/"><img src="https://avatars1.githubusercontent.com/u/42623858?v=4" width="100px;" alt=""/><br /><sub><b>Stefan Huckschlag</b></sub></a><br /><a href="#content-hucki" title="Content">🖋</a></td>
+    <td align="center"><a href="https://github.com/Atif252"><img src="https://avatars2.githubusercontent.com/u/50226353?v=4" width="100px;" alt=""/><br /><sub><b>Atif</b></sub></a><br /><a href="#content-Atif252" title="Content">🖋</a></td>
   </tr>
 </table>
 

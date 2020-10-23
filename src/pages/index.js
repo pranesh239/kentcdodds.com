@@ -8,6 +8,7 @@ import Layout from 'components/layout'
 import Link from 'components/link'
 import Container from 'components/container'
 import Hero from 'components/big-hero'
+import EpicReactCta from 'components/epic-react-cta'
 import TestingCta from 'components/testing-cta'
 import theme from '../../config/theme'
 import {bpMaxMD, bpMaxSM} from '../lib/breakpoints'
@@ -50,11 +51,10 @@ const Card = ({
         }
       }
       ${bpMaxMD} {
-          flex-direction: column;
-          align-items: center;
-          ${
-            big &&
-            `
+        flex-direction: column;
+        align-items: center;
+        ${big &&
+        `
           text-align: center;
           h4 {
             padding: 40px 40px 0 40px;
@@ -65,12 +65,10 @@ const Card = ({
           p {
             padding-bottom: 40px;
           }
-          `
-          }
-        }
-      ${
-        !big &&
-        `
+          `}
+      }
+      ${!big &&
+      `
         align-items: flex-start;
         flex-direction: column; 
         img {
@@ -85,20 +83,20 @@ const Card = ({
            padding: 40px 0 0 0;
          }
         }
-      `
-      }
+      `}
       background: ${backgroundColor};
       overflow: hidden;
       border-radius: 5px;
       margin-bottom: ${big ? '20px' : '0'};
       img {
         transition: ${theme.transition.ease};
+        flex-shrink: 0;
       }
       @media (hover: hover) {
-      :hover:not(.touch) {
-        transform: scale(1.03);
-        box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.15);
-      }
+        :hover:not(.touch) {
+          transform: scale(1.03);
+          box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.15);
+        }
       }
     `}
   >
@@ -182,17 +180,18 @@ export default function Index({data: {allMdx}}) {
           View all articles
         </Link>
       </Container>
-
-      <TestingCta />
-
+      <div css={{display: 'grid', gridGap: 20}}>
+        <EpicReactCta />
+        <TestingCta />
+      </div>
       <Container>
         <Card
           big
           backgroundColor={theme.colors.red}
-          title="DevTips"
-          description="My YouTube channel where I livestream every weekday about Web Development. Come join me and learn something new."
+          title="KCD Community on Discord"
+          description="Come join us and make connections, share ideas, and use software to make the world a better place."
           image={devtipsImg}
-          link="http://kcd.im/devtips"
+          link="/discord"
         />
         <div
           css={css`
@@ -217,10 +216,10 @@ export default function Index({data: {allMdx}}) {
             link="/talks"
           />
           <Card
-            title="3 Minutes with Kent"
+            title="Chats with Kent"
             backgroundColor={theme.colors.yellow}
             image={minutesImg}
-            link="https://www.briefs.fm/3-minutes-with-kent"
+            link="/podcast"
           />
         </div>
       </Container>
